@@ -1,11 +1,11 @@
 import Chai from "./Chai"
 function App() {
-
-
+  //inject variable
+  const username = 'userGreat';
   return (
     <>
       <Chai />
-      <h1>Hello Great from VITE</h1>
+      <h1>Hello Great from VITE: {username}</h1>
     </>
   )
 }
